@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(216, 71%, 21%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    color: white;
+}
+
+span {
+    color: white;
+}
+
+.container {
+    margin: 5%;
+    padding: 26px;
+    width: 350px;
+    background: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.container p {
+    color: hsl(215, 51%, 70%);
+}
+
+.nft {
+    margin-bottom: 0.5em;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.container h1 {
+    margin: 0;
+}
+
+.container .info {
+    display: flex;
+}
+
+.info img {
+    margin-top: 20px;
+    margin-right: 10px;
+    height: 100%;
+}
+
+.info .clock-icon {
+    margin-left: 138px;
+}
+
+.credit-pfp {
+    display: flex;
+}
+
+.pfp {
+    margin-right: 10px;
+    width: 55px;
+    border: white 2px solid;
+    border-radius: 100%;
+}
